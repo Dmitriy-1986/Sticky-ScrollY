@@ -1,0 +1,42 @@
+body {
+    position: relative;
+}
+
+.cont {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.box {
+    min-height: 100vh;
+}
+
+.box:nth-child(2) {
+    background-color: #693e6a;
+}
+
+.box:nth-child(3) {
+    background-color: #a4517d;
+}
+
+.box:nth-child(4) {
+    background-color: #3f335c;
+}
+
+.nav {
+    display: block;
+    background-color: #ff675a;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.list li {
+    display: inline-block;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
